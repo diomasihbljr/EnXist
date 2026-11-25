@@ -1,0 +1,61 @@
+:root {
+  /* Palet organik dari brief — tidak diubah */
+  --color-sage: #CCD5AE;
+  --color-pistachio: #E9EDC9;
+  --color-paper: #FEFAE0;
+  --color-sand: #FAEDCD;
+  --color-clay: #D4A373;
+  --color-forest: #344638;
+  --color-moss: #667653;
+  --color-terracotta: #A65F46;
+  --color-ink: #292B25;
+  --color-muted: #77786B;
+  --color-line: #D8D2BF;
+  --color-white: #FFFFFF;
+
+  /* Token semantik terang */
+  --bg: var(--color-paper);
+  --bg-alt: var(--color-pistachio);
+  --surface: var(--color-white);
+  --surface-soft: #F7F3DF;
+  --surface-sand: var(--color-sand);
+  --surface-sage: var(--color-sage);
+  --text: var(--color-ink);
+  --text-soft: var(--color-muted);
+  --border: var(--color-line);
+  --brand: var(--color-forest);
+  --brand-on: #FBF8E8;
+  --accent: var(--color-clay);
+  --accent-on: #2B2117;
+  --success: var(--color-moss);
+  --success-on: #FFFFFF;
+  --danger: var(--color-terracotta);
+  --danger-on: #FFFFFF;
+  --shadow: 0 1px 2px rgba(52, 70, 56, 0.05);
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --sidebar-w: 250px;
+  --header-h: 72px;
+}
+
+[data-theme='dark'] {
+  --bg: #1B261F;
+  --bg-alt: #223027;
+  --surface: #26352B;
+  --surface-soft: #2B3A2F;
+  --surface-sand: #38392A;
+  --surface-sage: #40513B;
+  --text: #F1EFDD;
+  --text-soft: #ADB3A1;
+  --border: #3D4B3E;
+  --brand: #A7B791;
+  --brand-on: #1B261F;
+  --accent: #D4A373;
+  --accent-on: #241A10;
+  --success: #AFC199;
+  --success-on: #1B261F;
+  --danger: #E0A18A;
+  --danger-on: #2A160F;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+}
